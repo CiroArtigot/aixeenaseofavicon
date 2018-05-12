@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="system">
+	<name>Aixeena SEO - Favicon</name>
+	<author>Ciro Artigot</author>
+	<creationDate>November 2017</creationDate>
+	<copyright>Copyright (C) 207 Ciro Artigot. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>info@aixeena.org</authorEmail>
+	<authorUrl>www.aixeena.org</authorUrl>
+	<version>1.2.0</version>
+	<description>Aixeena SEO Favicon for Joomla</description>
+	<files>
+		<filename plugin="aixeenaseofavicon">aixeenaseofavicon.php</filename>
+		<filename>index.html</filename>
+	</files>
+	
+	<config>
+	
+	<fields name="params">
+		<fieldset name="basic">
+			
+			<field 
+				  name="favicon"
+				  type="media"
+				  label="Default favicon"
+				  description=""
+				  class="inputbox"
+				  directory="images/" 
+				/>	
+				
+			<field 
+				  name="favicon16"
+				  type="media"
+				  label="Favicon 16x16px "
+				  description=""
+				  class="inputbox"
+				  directory="images/" 
+				/>
+				
+			<field 
+				  name="favicon32"
+				  type="media"
+				  label="Favicon 32x32px "
+				  description=""
+				  class="inputbox"
+				  directory="images/" 
+				/>
+			
+			<field 
+				  name="favicon57"
+				  type="media"
+				  label="Favicon 57x57px "
+				  description=""
+				  class="inputbox"
+				  directory="images/" 
+				/>
+				
+			<field 
+				  name="favicon60"
+				  type="media"
+				  label="Favicon 60x60px"
+				  description=""
+				  class="inputbox"
+				  directory="images/" 
+				/>
+				
+			<field 
+				  name="favicon72"
+				  type="media"
+				  label="Favicon 72x72px"
+				  description=""
+				  class="inputbox"
+				  directory="images/" 
+				/>
+				
+				<field 
+				  name="favicon76"
+				  type="media"
+				  label="Favicon 76x76px"
+				  description=""
+				  class="inputbox"
+				  directory="images/" 
+				/>
+				
+			<field 
+				  name="favicon96"
+				  type="media"
+				  label="Favicon 96x96px"
+				  description=""
+				  class="inputbox"
+				  directory="images/" 
+				/>
+			
+			<field 
+				  name="favicon114"
+				  type="media"
+				  label="Favicon 114x114px"
+				  description=""
+				  class="inputbox"
+				  directory="images/" 
+				/>	
+				
+			<field 
+				  name="favicon120"
+				  type="media"
+				  label="Favicon 120x120px"
+				  description=""
+				  class="inputbox"
+				  directory="images/" 
+				/>	
+				
+			<field 
+				  name="favicon144"
+				  type="media"
+				  label="Favicon 144x144px"
+				  description=""
+				  class="inputbox"
+				  directory="images/" 
+				/>
+				
+			<field 
+				  name="favicon152"
+				  type="media"
+				  label="Favicon 152x152px"
+				  description=""
+				  class="inputbox"
+				  directory="images/" 
+				/>	
+				
+			<field 
+				  name="favicon180"
+				  type="media"
+				  label="Favicon 180x180px"
+				  description=""
+				  class="inputbox"
+				  directory="images/" 
+				/>
+				
+			<field 
+				  name="favicon192"
+				  type="media"
+				  label="Favicon 192x192px"
+				  description=""
+				  class="inputbox"
+				  directory="images/" 
+				/>
+			
+		</fieldset>
+	</fields>	
+	</config>
+</extension>
